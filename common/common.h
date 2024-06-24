@@ -1703,7 +1703,9 @@ typedef enum VIDEO_STREAM_TYPE
    VIDEO_STREAM_TYPE_RTPUDP=1, /* Stream is RTP UDP (URI gives the port number) | */
    VIDEO_STREAM_TYPE_TCP_MPEG=2, /* Stream is MPEG on TCP | */
    VIDEO_STREAM_TYPE_MPEG_TS_H264=3, /* Stream is h.264 on MPEG TS (URI gives the port number) | */
-   VIDEO_STREAM_TYPE_ENUM_END=4, /*  | */
+   VIDEO_STREAM_TYPE_LOCAL=4, /* Stream local video file (URI gives the file path) | */
+   VIDEO_STREAM_TYPE_WEB=5, /* Stream is web video file (URI gives the URL of video file) | */
+   VIDEO_STREAM_TYPE_ENUM_END=6, /*  | */
 } VIDEO_STREAM_TYPE;
 #endif
 
