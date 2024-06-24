@@ -3827,6 +3827,12 @@
       <entry value="3" name="VIDEO_STREAM_TYPE_MPEG_TS_H264">
         <description>Stream is h.264 on MPEG TS (URI gives the port number)</description>
       </entry>
+      <entry value="4" name="VIDEO_STREAM_TYPE_LOCAL">
+        <description>Stream local video file (URI gives the file path)</description>
+      </entry>
+      <entry value="5" name="VIDEO_STREAM_TYPE_WEB">
+        <description>Stream is web video file (URI gives the URL of video file)</description>
+      </entry>
     </enum>
     <enum name="CAMERA_TRACKING_STATUS_FLAGS">
       <description>Camera tracking status flags</description>
